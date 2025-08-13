@@ -1,0 +1,174 @@
+/* Responsive Styles */
+@media (max-width: 991.98px) {
+    /* Navigation */
+    .navbar-nav {
+        background: rgba(10, 10, 10, 0.95);
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 10px 20px;
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    /* Hero Section */
+    .hero-section {
+        padding-top: 80px;
+        height: auto;
+        min-height: auto;
+    }
+
+    .hero-content {
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .hero-image {
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+    .profile-img {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .hero-buttons .btn {
+        margin: 10px;
+    }
+
+    .social-links {
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    /* About Section */
+    .about-content {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .about-stats {
+        justify-content: center;
+    }
+
+    /* Services Section */
+    .service-card {
+        margin-bottom: 30px;
+    }
+
+    /* Contact Section */
+    .contact-info {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .contact-form {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    /* Typography */
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.5rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    /* Spacing */
+    section {
+        padding: 60px 0;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
+    /* Hero Section */
+    .hero-section {
+        padding-top: 60px;
+    }
+
+    .hero-image {
+        margin-top: 20px;
+    }
+
+    .profile-img {
+        max-width: 70%;
+    }
+
+    /* Skills */
+    .skill-card {
+        margin-bottom: 20px;
+    }
+
+    /* Contact */
+    .contact-item {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    /* Typography */
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+    }
+
+    /* Buttons */
+    .btn {
+        padding: 8px 20px;
+        font-size: 0.9rem;
+    }
+
+    /* Spacing */
+    section {
+        padding: 40px 0;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    /* Hero Section */
+    .hero-buttons .btn {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .social-links {
+        flex-wrap: wrap;
+    }
+
+    .social-link {
+        margin: 5px;
+    }
+
+    /* Contact Form */
+    .contact-form .form-control {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+}
